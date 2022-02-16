@@ -1,3 +1,5 @@
+// Imports
+
 import React from "react";
 import { connect } from "react-redux";
 
@@ -6,6 +8,8 @@ import CartItem from "../cart-item/cart-item.component";
 import { selectCartItems } from "../../redux/cart/cart.selectors";
 
 import "./cart-dropdown.styles.scss";
+
+// Code
 
 const CartDropdown = ({ cartItems }) => {
   return (
